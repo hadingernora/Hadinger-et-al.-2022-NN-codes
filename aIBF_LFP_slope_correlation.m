@@ -1,4 +1,3 @@
-% MATLAB Code
 % Used in: Figure 6 (k-m), Figure 7 (e,f), Extended Data Figure 4 (a-b), Extended Data Figure 4 (j,k)
 % Calculates correlation between aIBF of TRN bursts and the slope of the instantaneous LFP peak   
 % Spikes (20 000 Hz sample rate), and cortical LFP waveform (downsampled to 10 000 Hz) 
