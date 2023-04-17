@@ -72,7 +72,7 @@ i
     
 steepest_fits=prctile(slope,98)
 
-TT=(slope>0.1703);
+TT=(slope>steepest_fits);
 
 kk=trigger(TT);
 
@@ -124,7 +124,7 @@ psth_window=2000 % 200 ms
 psth_vector_delay_sum=[];
 psth_vector_position_sum=[];
 
-peak_position=unique(peak_position_b); % valamikor 2x veszi ugyanazt a peaket az el?z? szekcióban, még nem jöttem rá, miért, de ezzel így kevésbé elegánsan megoldottam
+peak_position=unique(peak_position_b); % valamikor 2x veszi ugyanazt a peaket az el?z? szekciÃ³ban, mÃ©g nem jÃ¶ttem rÃ¡, miÃ©rt, de ezzel Ã­gy kevÃ©sbÃ© elegÃ¡nsan megoldottam
 
 for shh=1:length(peak_position)
     
